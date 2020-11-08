@@ -1,0 +1,28 @@
+{
+    "todos": [
+        {
+            "titulo": "Tarea 1",
+            "responsable": "Marcelo",
+            "descripcion": "Leer",
+            "prioridad": "alta"
+        },
+        {
+            "titulo": "Tarea 2",
+            "responsable": "Marias",
+            "descripcion": "Leer",
+            "prioridad": "alta"
+        },
+        {
+            "titulo": "Tarea 3",
+            "responsable": "Gabriel",
+            "descripcion": "Leer",
+            "prioridad": "alta"
+        },
+        {
+            "titulo": "Tarea 4",
+            "responsable": "Steven",
+            "descripcion": "Leer",
+            "prioridad": "alta"
+        }
+    ]
+}
