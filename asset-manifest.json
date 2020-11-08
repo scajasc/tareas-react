@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/tareas-react/static/css/main.0e06f85a.chunk.css",
-    "main.js": "/tareas-react/static/js/main.d1e5de77.chunk.js",
-    "main.js.map": "/tareas-react/static/js/main.d1e5de77.chunk.js.map",
+    "main.css": "/tareas-react/static/css/main.bd6243c4.chunk.css",
+    "main.js": "/tareas-react/static/js/main.f8f0c572.chunk.js",
+    "main.js.map": "/tareas-react/static/js/main.f8f0c572.chunk.js.map",
     "runtime-main.js": "/tareas-react/static/js/runtime-main.29322cf6.js",
     "runtime-main.js.map": "/tareas-react/static/js/runtime-main.29322cf6.js.map",
     "static/js/2.7366d70a.chunk.js": "/tareas-react/static/js/2.7366d70a.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.3ebfa3a0.chunk.js": "/tareas-react/static/js/3.3ebfa3a0.chunk.js",
     "static/js/3.3ebfa3a0.chunk.js.map": "/tareas-react/static/js/3.3ebfa3a0.chunk.js.map",
     "index.html": "/tareas-react/index.html",
-    "static/css/main.0e06f85a.chunk.css.map": "/tareas-react/static/css/main.0e06f85a.chunk.css.map",
+    "static/css/main.bd6243c4.chunk.css.map": "/tareas-react/static/css/main.bd6243c4.chunk.css.map",
     "static/js/2.7366d70a.chunk.js.LICENSE.txt": "/tareas-react/static/js/2.7366d70a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.29322cf6.js",
     "static/js/2.7366d70a.chunk.js",
-    "static/css/main.0e06f85a.chunk.css",
-    "static/js/main.d1e5de77.chunk.js"
+    "static/css/main.bd6243c4.chunk.css",
+    "static/js/main.f8f0c572.chunk.js"
   ]
 }
