@@ -15,7 +15,7 @@ class App extends Component {
     super();
 
     this.state = {
-      titulo: "Aplicacion de Tareas",
+      titulo: "Aplicación de Tareas",
       tareas: todos,
       numeroTareas: todos.length
     }
@@ -67,7 +67,7 @@ class App extends Component {
     return (
       <div className="App">
 
-        <Navegation titulo={this.state.titulo} numeroTareas={this.state.numeroTareas} />
+        <Navegation titulo={this.state.titulo} numeroTareas={this.state.tareas.length} />
 
         <div className="container">
 
