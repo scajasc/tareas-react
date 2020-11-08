@@ -4,6 +4,7 @@ import './App.css';
 import Navegation from "./Componentes/Navegation";
 import TaskForm from "./Componentes/TaskForm";
 import { todos } from './todos.json';
+import Particles from 'react-particles-js';
 
 
 console.log(todos);
@@ -31,11 +32,11 @@ class App extends Component {
 
   removeTask(index) {
     console.log(index);
-     this.setState({
+    this.setState({
       tareas: this.state.tareas.filter((e, i) => {
         return i !== index;
       })
-    }); 
+    });
   }
 
   render() {
@@ -66,24 +67,58 @@ class App extends Component {
 
     return (
       <div className="App">
+        <Particles className="particles"
+          params={{
+            "particles": {
+              "line_linked": {
+                "color": "#FFFFFF"
+              },
+              "number": {
+                "value": 150
+              },
+              "size": {
+                "value": 5
+              }
+            },
+            "interactivity": {
+              "events": {
+                "onhover": {
+                  "enable": true,
+                  "mode": "repulse"
+                }
+              }
+            }
+          }} />
+        <div
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%"
+          }}
+        >
 
-        <Navegation titulo={this.state.titulo} numeroTareas={this.state.tareas.length} />
+          <Navegation titulo={this.state.titulo} numeroTareas={this.state.tareas.length} />
 
-        <div className="container">
+          <div className="container">
 
-          <div className="row">
-            <div className="col-sm-4">
-              <TaskForm addTask={this.addTask} />
-            </div>
-            <div className="col-sm-8">
-              <div className="row" >
-                {lista}
+            <div className="row">
+              <div className="col-sm-4">
+                <TaskForm addTask={this.addTask} />
+              </div>
+              <div className="col-sm-8">
+                <div className="row" >
+                  {lista}
+                </div>
               </div>
             </div>
+
+
           </div>
 
-
         </div>
+
       </div>
     );
   }
