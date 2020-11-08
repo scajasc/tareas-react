@@ -2,3 +2,8 @@
     width: 100%;
     height: auto;
 }
+
+.scrol {
+    height: 550px;
+    overflow-y: scroll;
+}

@@ -138,7 +138,7 @@ class App extends Component {
                 <TaskForm addTask={this.addTask} />
               </div>
               <div className="col-sm-8">
-                <div className="row" >
+                <div className="scrol row mt-4" >
                   {lista}
                 </div>
               </div>
